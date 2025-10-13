@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive Web Design</title>
+    <style>
+        .parent {
+            background-color: mediumpurple;
+            padding: 20px;
+            text-align: center;
+        }
+        @media (min-width:600px){
+            .parent{
+                background-color: maroon;
+                font-size: 20px;
+            }
+        } 
+        img{
+            width: 100%;
+        }
+        video{
+            width: 100%;
+        }
+        audio{
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <h2>My name is SANDRA B, currently I am pursuing MCA-General in Alliance University</h2>
+    </div>
+    <img src="./Alliance University campus.jpg" alt="">
+    <video controls autoplay loop muted src="./Promo__Sandra & Akhil.mp4"></video>
+    <audio controls autoplay loop muted src="./file_example_MP3_700KB.mp3"></audio>
+</body>
+
+</html>
