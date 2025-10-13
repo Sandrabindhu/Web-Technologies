@@ -1,0 +1,432 @@
+<html>
+
+<head>
+  <link rel="icon" href="./pngaaa.com-6733722.png">
+  <title>Alliance University – Demo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: rgb(250, 236, 236);
+      color: white;
+    }
+
+    .utility {
+      background: #0b1a2b;
+      color: #ddd;
+      font-size: 13px;
+      padding: 6px 12px;
+      text-align: right;
+    }
+
+    .utility a {
+      color: #ddd;
+      margin: 0 6px;
+      text-decoration: none;
+    }
+
+    .navbar {
+      background: #7b0d0d;
+      padding: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      background: white;
+      color: #7b0d0d;
+      font-weight: bold;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+    }
+
+    .brand {
+      display: flex;
+      height: 60px;
+      width: 200px;
+    }
+
+    .menu a {
+      color: white;
+      margin: 0 8px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .bodypart {
+      height: 70%;
+      background: url("./Alliance\ University\ campus.jpg") no-repeat center center fixed;
+      background-size: cover;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .bodypart h2 {
+      margin-top: 0px;
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: black;
+    }
+
+    .bodypart h1 {
+      margin-top: 10px;
+      font-size: 28px;
+      margin-bottom: 30px;
+      color: black;
+    }
+
+    .ranks {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .rank {
+      border: 4px solid rgb(0, 0, 0);
+      border-radius: 10px;
+      padding: 15px;
+      width: 200px;
+      text-align: center;
+      color: black;
+      background-color: rgb(237, 228, 213);
+    }
+
+    .medal {
+      width: 60px;
+      height: 60px;
+      color: black;
+      border-radius: 50%;
+      border: 4px solid rgb(0, 0, 0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: 20px;
+      background: wheat;
+    }
+
+    .cta {
+      margin-top: 20px;
+    }
+
+    .cta button {
+      padding: 10px 15px;
+      margin: 5px;
+      border-radius: 5px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .outline {
+      background: transparent;
+      border: 2px solid white;
+      color: white;
+    }
+
+    .primary {
+      background: orange;
+      color: white;
+    }
+
+    .blue {
+      background: #1473e6;
+      color: white;
+    }
+
+    .container1 {
+      margin-top: 50px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .container1 h2 {
+      color: black;
+      margin-left: 48%;
+    }
+
+    .container1 p {
+      color: black;
+    }
+
+    .container2 {
+      margin-top: 50px;
+      background-color: #254265;
+    }
+
+    .container2 h2 {
+      color: white;
+      margin-left: 48%;
+      padding-top: 50px;
+
+    }
+
+    .container2 img {
+      margin-top: 50px;
+      margin-left: 15px;
+      height: 280px;
+      width: 480px;
+    }
+
+    .container2 iframe {
+
+      margin-left: 120px;
+    }
+
+    .container3 {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .container3 h2 {
+      color: black;
+      margin-left: 45%;
+      margin-top: 50px;
+    }
+
+    .container3 .audios {
+      margin-top: 50px;
+      border: 2px solid black;
+      border-radius: 10px;
+      margin-left: 40%;
+      margin-right: 35%;
+    }
+
+     footer {
+      background-color: #2c3144;
+      color: white;
+      padding: 40px 80px;
+    }
+
+    .footer-container {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 30px;
+    }
+
+    .footer-column h3 {
+      font-size: 16px;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-column ul li {
+      margin-bottom: 8px;
+    }
+
+    .footer-column ul li a {
+      color: #bbb;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .footer-column ul li a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    .helpline {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="utility">
+    <a href="https://alumni.alliance.edu.in/">Alumni</a>
+    <a href="https://www.alliance.edu.in/library">Library</a>
+    <a href="https://www.alliance.edu.in/careers">Careers</a>
+    <a href="./multimedia login.html">Login</a>
+  </div>
+
+  <div class="navbar">
+    <div class="brand">
+      <img src="./au2.webp" alt="logo">
+    </div>
+    <div class="menu">
+      <a href="https://www.alliance.edu.in/about-us/about-us">About</a>
+      <a href="https://www.alliance.edu.in/faculties/category/core-faculty">Faculty</a>
+      <a href="https://www.alliance.edu.in/programmes/undergraduate">Programs</a>
+      <a href="https://www.alliance.edu.in/admissions/overview">Admissions</a>
+    </div>
+  </div>
+
+  <div class="bodypart">
+    <h2>Alliance School of Computing</h2>
+    <h1>Times BBA Education Ranking Survey 2025</h1>
+
+    <div class="ranks">
+      <div class="rank">
+        <div class="medal">4</div>IN INDIA AMONG THE <br> TOP 70 INSTITUTIONS
+      </div>
+      <div class="rank">
+        <div class="medal">2</div>IN SOUTH INDIA
+      </div>
+      <div class="rank">
+        <div class="medal">3</div>AMONG PRIVATE <br> UNIVERSITIES
+      </div>
+      <div class="rank">
+        <div class="medal">4</div>IN PLACEMENTS <br> NATIONWIDE
+      </div>
+      <div class="rank">
+        <div class="medal">1</div>IN KARNATAKA
+      </div>
+    </div>
+
+    <div class="cta">
+      <button class="outline">Campus Tour</button>
+      <a href="https://apply.alliance.edu.in/"><button class="primary">Apply Now</button></a>
+      <a href="https://www.alliance.edu.in/contact-us"><button class="blue">Contact Us</button></a>
+    </div>
+  </div>
+  <div class="container1">
+    <h2 class="about">About Us</h2>
+    <div class="content">
+      <p>Alliance reimagines the idea of the university by creating a community that leads the charge against the
+        complex challenges of the 21st
+        century. The university conceives research to be the essence of all teaching and learning practices. A unity
+        between research and teaching
+        is promoted to extend the frontiers of knowledge in order to solve real world problems at the local, national,
+        and global scale. For this
+        purpose, the university seeks to be the nerve centre of interaction between the industry, the government, the
+        civil society, and the
+        community at large.<br><br>
+        In times when technological and social change is transforming the very idea of employability, the university
+        embraces the increasing
+        diversity of specializations while retaining the impulse to unify all knowledge.A designed convergence of the
+        business, engineering, law
+        and liberal arts units precipitates transdisciplinarity as the core academic philosophy.<br><br>
+        Freely working across divergent streams of knowledge like psychology and data science, technology and law,
+        physics and philosophy or
+        businesses and rhetoric, transdisciplinarity nurtures a dynamic foundation for the spirit of collaboration,
+        inquiry, and enterprise.</p>
+      <br><br><br>
+    </div>
+  </div>
+  <hr>
+
+  <div class="container2">
+    <h2 class="events">Events</h2>
+    <div class="eimage">
+      <img src="./e1.jpg" alt="event1">
+      <img src="./e2.jpg" alt="event2">
+      <img src="./e3.jpg" alt="event3">
+    </div>
+
+    <div class="video">
+      <iframe width="560" height="315"
+        src="https://www.youtube-nocookie.com/embed/zCZKu8D_260?si=9l6USNdAfDk2uGUh&amp;controls=0&amp;start=10"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315"
+        src="https://www.youtube-nocookie.com/embed/c8W3C_b7q6c?si=boJ6emyGTm_Mw2qO&amp;start=4"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div><br><br><br>
+    <hr>
+  </div>
+
+  <div class="container3">
+    <h2 class="song">Singing Competitions</h2>
+    <div class="audios">
+      <ul>
+        <li><audio controls loop muted src="./Bahara.mp3"></audio></li>
+        <li><audio controls loop muted src="./Bol Na Halke Halke.mp3"></audio></li>
+        <li><audio controls loop muted src="./Deewana Kar Raha Hai.mp3"></audio></li>
+        <li><audio controls loop muted src="./Gale Lag Ja.mp3"></audio></li>
+        <li><audio controls loop muted src="./Jeene Laga Hoon.mp3"></audio></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+
+      <div class="footer-column">
+        <h3>ABOUT</h3>
+        <ul>
+          <li><a href="#">The University</a></li>
+          <li><a href="#">Ranking & Accolades</a></li>
+          <li><a href="#">University Officers</a></li>
+          <li><a href="#">News & Events</a></li>
+        </ul>
+        <h3>CONTACT</h3>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>SCHOOLS</h3>
+        <ul>
+          <li><a href="#">Alliance School of Business</a></li>
+          <li><a href="#">Alliance School of Law</a></li>
+          <li><a href="#">Alliance School of Design</a></li>
+          <li><a href="#">Alliance School of Liberal Arts</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>PROGRAMMES</h3>
+        <ul>
+          <li><a href="#">Undergraduate</a></li>
+          <li><a href="#">Postgraduate</a></li>
+          <li><a href="#">Doctoral</a></li>
+          <li><a href="#">Diploma</a></li>
+        </ul>
+        <h3>ADMISSIONS</h3>
+        <ul>
+          <li><a href="#">Admission Process</a></li>
+          <li><a href="#">Course & Fee Structure</a></li>
+          <li><a href="#">Payment Options</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>IMPORTANT LINKS</h3>
+        <ul>
+          <li><a href="#">NIRF</a></li>
+          <li><a href="#">Results</a></li>
+          <li><a href="#">IQAC</a></li>
+          <li><a href="#">Webmail</a></li>
+        </ul>
+        <h3>OTHERS</h3>
+        <ul>
+          <li><a href="#">Webinars</a></li>
+          <li><a href="#">Disclaimer</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Helpline</h3>
+        <div class="helpline">080 4619 9000 / 9100 / 9200</div>
+        <div class="helpline">080 4129 9200</div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 Alliance University. All rights reserved.
+    </div>
+  </footer>
+</body>
+
+</html>
